@@ -1,0 +1,65 @@
+{
+  "id": "1642517",
+  "name": "2020",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8776715",
+      "name": "time",
+      "font_class": "icon-test",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "8776822",
+      "name": "cart_empty",
+      "font_class": "icon-test1",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "8776842",
+      "name": "search",
+      "font_class": "icon-test2",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8777250",
+      "name": "user",
+      "font_class": "icon-test3",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "11372685",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "11372703",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "11372716",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e8bb",
+      "unicode_decimal": 59579
+    },
+    {
+      "icon_id": "11372717",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e8bc",
+      "unicode_decimal": 59580
+    }
+  ]
+}
