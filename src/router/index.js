@@ -16,6 +16,20 @@ const routes = [
         component: ()=> {  // 路由懒加载
           return import('../components/Users.vue')
         }
+      },
+      {
+        path: '/roles',
+        name: 'Roles',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Roles.vue')
+        }
+      },
+      {
+        path: '/rights',
+        name: 'Rights',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Rights.vue')
+        }
       }
     ]
   },
