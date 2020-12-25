@@ -30,7 +30,36 @@ const routes = [
         component: ()=> {  // 路由懒加载
           return import('../components/Rights.vue')
         }
-      }
+      },
+      {
+        path: '/categories',
+        name: 'Categories',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Categories.vue')
+        }
+      },
+      {
+        path: '/goods',
+        name: 'Goods',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Goods.vue')
+        },            
+      },
+      {
+        path: '/goods/add',
+        name: 'Add',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Add.vue')
+        }
+      },
+      {
+        path: '/params',
+        name: 'Params',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Params.vue')
+        }
+      },
+
     ]
   },
   {

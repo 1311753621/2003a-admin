@@ -22,7 +22,7 @@ Vue.prototype.$echarts = echarts
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
-Vue.config.productionTip = false
+//树形控件
 import TreeTable from 'vue-table-with-tree-grid'
 Vue.component('tree-table',TreeTable)
 //导入富文本编辑器
@@ -33,6 +33,7 @@ import 'quill/dist/quill.snow.css'
 import 'quill/dist/quill.bubble.css'
 //将富文本编辑器注册为全局可用的组件
 Vue.use(VueQuillEditor)
+Vue.config.productionTip = false
 new Vue({
   router,
   store,
