@@ -59,6 +59,31 @@ const routes = [
           return import('../components/Params.vue')
         }
       },
+      {
+        path: '/reports',
+        name: 'Reports',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Reports.vue')
+        }
+      },
+      {
+        path: '/orders',
+        name: 'Orders',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Orders.vue')
+        }
+      },
+      {
+        path:'/home',
+        redirect:"/wel"
+      },
+      {
+        path: '/wel',
+        name: 'Wel',
+        component: ()=> {  // 路由懒加载
+          return import('../components/Wel.vue')
+        }
+      },
 
     ]
   },
