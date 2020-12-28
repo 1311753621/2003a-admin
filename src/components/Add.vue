@@ -65,7 +65,7 @@
                 <el-tab-pane label="商品图片" name="3">
                     <!-- action:图片要上传到的图片后台api地址 -->
                     <el-upload
-                        action=" "
+                        action="https://www.liulongbin.top:8888/api/private/v1/upload"
                         :on-preview="handlePreview"
                         :on-remove="handleRemove"
                         list-type="picture" 
@@ -199,6 +199,7 @@ export default {
         },
         //处理图片预览事件
         handlePreview(file){
+            console.log(file)
              this.img=file.response.data.url
              this.dialogVisible=true
         },
